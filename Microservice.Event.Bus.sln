@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36414.22 d17.14
+VisualStudioVersion = 17.14.36414.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{301B533D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice.Event.Bus", "src\Microservice.Event.Bus\Microservice.Event.Bus.csproj", "{F9AFBE05-4D3F-8DEE-FEC1-40831CE309A2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice.Event.Bus.Test", "tests\Microservice.Event.Bus.Test\Microservice.Event.Bus.Test.csproj", "{A6E94200-7507-47E6-9747-84FDF0B868B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,12 +27,17 @@ Global
 		{F9AFBE05-4D3F-8DEE-FEC1-40831CE309A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9AFBE05-4D3F-8DEE-FEC1-40831CE309A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9AFBE05-4D3F-8DEE-FEC1-40831CE309A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6E94200-7507-47E6-9747-84FDF0B868B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6E94200-7507-47E6-9747-84FDF0B868B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6E94200-7507-47E6-9747-84FDF0B868B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6E94200-7507-47E6-9747-84FDF0B868B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F9AFBE05-4D3F-8DEE-FEC1-40831CE309A2} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{A6E94200-7507-47E6-9747-84FDF0B868B1} = {301B533D-5BC0-4FCD-B756-1B86B3A7E0B9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3ACC59DB-E01B-43D2-B267-D36196DB3378}
