@@ -32,6 +32,18 @@ namespace Microservice.Event.Bus.Internal.Queue
         }
 
         /// <summary>
+        /// Gets the number of elements contained in the System.Collections.Concurrent.ConcurrentQueue`1.
+        /// </summary>
+        /// <return>The numver of elements contained in the System.Collections.Concurrent.ConcurrentQueue`1.</return>
+        public int Count => _queueEvent.Count;
+
+        /// <summary>
+        /// Determines whether a sequence contains any elements.
+        /// </summary>
+        /// <returns>True if the source squence contains any elements; otherwise, false</returns>
+        public bool Any() => _queueEvent.Any();
+
+        /// <summary>
         /// Agraga un objeto al final de la queue
         /// </summary>
         /// <param name="event">El objeto a agregar al final de la Queue</param>
