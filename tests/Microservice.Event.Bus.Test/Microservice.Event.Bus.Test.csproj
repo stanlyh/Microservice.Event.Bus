@@ -24,9 +24,4 @@
     <Using Include="Xunit" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Extensions\" />
-    <Folder Include="Internal\EventBusBackgroundService\" />
-  </ItemGroup>
-
 </Project>

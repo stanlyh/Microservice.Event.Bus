@@ -20,7 +20,7 @@ namespace Microservice.Event.Bus.Extension
         /// </summary>
         /// <param name="services">The Microsoft.Extensions.DependencyInjection.IServiceCollection to add the service to.</param>
         /// <returns>A reference to this instance after the operations has completed.</returns>
-        public static IServiceCollection AddEventBuss(this IServiceCollection services)
+        public static IServiceCollection AddEventBus(this IServiceCollection services)
         {
             services.AddSingleton<ISubscriptionManager, SubscriptionManager>();
 
